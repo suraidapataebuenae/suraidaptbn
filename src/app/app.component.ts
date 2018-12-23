@@ -8,6 +8,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { SocialInfoPage } from '../pages/social-info/social-info';
+import { JsonMenuPage } from '../pages/json-menu/json-menu';
 
 @Component({
   templateUrl: 'app.html'
@@ -28,7 +29,8 @@ export class MyApp {
       { title: 'List', component: ListPage, icon : 'apps' },
       { title: 'SocialInfoPage', component: SocialInfoPage, icon : 'apps' },
       { title: 'BarcodeScanner', component: BarcodeScannerPage, icon : 'apps' },
-      { title: 'Geolocation', component: GMapPage, icon : 'apps' }
+      { title: 'Geolocation', component: GMapPage, icon : 'apps' },
+      { title: 'JsonMenuPage', component: JsonMenuPage, icon : 'apps' },
 
     ];
 
